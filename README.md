@@ -12,6 +12,12 @@ Claro, aquí tienes un resumen de las tareas que se describen:
     - `GET /libros`: Retorna una lista de todos los libros.
     - `GET /libros/{id_libro}`: Retorna un libro por el id.
     - `POST /libros`: Crea un nuevo recurso libro.
+  
+5. **Creación del controlador**: Se debe crear una clase `LibroController` en el paquete `com.tuuniversidad.controllers`. Este controlador tendrá los siguientes endpoints:
+   Si no existe el libro, lanzar un expcetion LibroException (GET /libros/{id_libro}). Enviar el estado NOT_FOUND con un mensaje personalizado
+    Cuando se crea un libro, enviar el estado de CREATE
 
 [![Captura-de-pantalla-2024-05-17-221750.png](https://i.postimg.cc/ZqThd1n1/Captura-de-pantalla-2024-05-17-221750.png)](https://postimg.cc/5XkGcKw3)
 [![Captura-de-pantalla-2024-05-17-230942.png](https://i.postimg.cc/D0YM8MH3/Captura-de-pantalla-2024-05-17-230942.png)](https://postimg.cc/LgLTWNmx) 
+[![Captura-de-pantalla-2023-07-02-184649.png](https://i.postimg.cc/mkHsvtmF/Captura-de-pantalla-2023-07-02-184649.png)](https://postimg.cc/8fN9WPQ1)
+[![Captura-de-pantalla-2024-06-02-175401.png](https://i.postimg.cc/c4fKYHdH/Captura-de-pantalla-2024-06-02-175401.png)](https://postimg.cc/HVss1TcD)
